@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Skills</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <style>
+        body 
+        {
+            font-family: "Roboto", sans-serif;
+            background-color: black;
+            color:white; 
+            position: relative;
+        }
+        
+        .sidebar {
+          height: 100%;
+          width: 160px;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          background-color: #111;
+          overflow-x: hidden;
+          padding-top: 16px;
+        }
+        
+        .sidebar a {
+          padding: 6px 8px 6px 16px;
+          text-decoration: none;
+          font-size: 20px;
+          color: #818181;
+          display: block;
+        }
+        
+        .sidebar a:hover {
+          text-decoration: underline #DF00FE;
+          box-shadow: 0 0 5px #DF00FE;
+          color:white;
+        }
+        
+        .main {
+          margin-left: 160px;
+          padding: 0px 10px;
+        }
+        i{
+            color:white;
+        }
+        i:hover
+        {
+            color:#DF00FE;
+        }
+        .rounded-circle
+        {
+            border-color: white;
+        }
+        
+        @media screen and (max-height: 450px) {
+          .sidebar {padding-top: 15px;}
+          .sidebar a {font-size: 18px;}
+        }
+        hr
+        {
+            background-color: #DF00FE;
+            border-style: solid;      
+        }
+        .btn
+        {
+            background-color: #DF00FE;
+        }
+        .btn-text
+        {
+            color:white;
+            font-weight: bold;
+        }
+        .btn:hover{
+            background-color: black;
+        }
+        .btn-text:hover{
+            color: white;
+        }
+    </style>
+    <body data-spy="scroll" data-target="#sidebar" data-offset="130">
+            <div class="container">
+                    <div class="sidebar" id="sidebar">
+                            <img src="D:\website\resume\logo.png" height="160" width="120" class="rounded-circle">
+                            <a href="#home active">HOME</a>
+                            <a href="#skills">SKILLS</a>
+                            <a href="#projects">PROJECTS</a>
+                            <a href="#contact">CONTACT</a>
+                            <br><br>
+                            <div style="padding: 6px 8px 6px 16px;" >
+                                <i class="fa fa-github"></i><br>
+                                <i class="fa fa-instagram"></i><br>
+                                <i class="fa fa-twitter"></i><br>
+                                <i class="fa fa-linkedin"></i>
+                            </div>
+                    </div>
+                    <div class="main">
+                        <div id="home">
+                            <h1 style="text-align: center; padding-top: 220px; font-weight: 1000; font-size: 100px ;">HELLO,</h1>
+                            <p style="text-align:center;">I am <b>Manni Sharma</b>, Full-Stack Developer from Panipat, Haryana.
+                                I have rich experience in ReactJs, NodeJS, Java, C, HTML, CSS, JavaScript, Bootstrap 4, AngularJS.</p>
+                        </div>
+                        <hr>
+                        <div style="padding-top: 130px;" id="skills">
+                            <h1 style="font-weight: 1000;">SKILLS</h1><br>
+                            <h4>JAVA</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 90%;background-color:#DF00FE" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><b>90%</b></div>
+                            </div>
+                            <br>
+                            <h4>C</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%;background-color:#DF00FE" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><b>80%</b></div>
+                            </div>
+                            <br>
+                            <h4>HTML</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 90%;background-color:#DF00FE" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><b>90%</b></div>
+                            </div>
+                            <br>
+                            <h4>JavaScript</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%;background-color:#DF00FE" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><b>80%</b></div>
+                            </div>
+                            <br>
+                            <h4>jQuery</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%;background-color:#DF00FE" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><b>80%</b></div>
+                            </div>
+                            <br>
+                            <h4>AngularJS</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%;background-color:#DF00FE" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"><b>75%</b></div>
+                            </div>
+                            <br>
+                            <h4>Python</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 70%;background-color:#DF00FE" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><b>70%</b></div>
+                            </div>
+                        </div>
+                        <br>
+                        <hr>
+                        <div style="padding-top: 130px;" id="projects">
+                            <h1 style="font-weight: 1000;">PROJECTS</h1><br><br>
+                            <h5 style="font-weight: bolder; text-decoration: underline #DF00FE;">Web Crawler :</h5>
+                            <p>It is a python based web robot or web spider which starts with a random page from <b>Wikipedia</b> and keeps on searching until we reach the <b>Philosophy</b> page.</p>
+                            <br>
+                            <button class="btn" onclick="window.open('https://github.com/Mannisharma2612/python_codes.git','_blank')"><span class="btn-text">CODE</span></button><br><br><br><br>
+                            <h5 style="font-weight: bolder; text-decoration: underline #DF00FE;">Web Crawler :</h5>
+                            <p>It is a python based web robot or web spider which starts with a random page from <b>Wikipedia</b> and keeps on searching until we reach the <b>Philosophy</b> page.</p>
+                            <br>
+                            <button class="btn" onclick="window.open('https://github.com/Mannisharma2612/python_codes.git','_blank')"><span class="btn-text">CODE</span></button><br><br><br><br>
+                        </div>
+                        <hr>
+                        <div style="padding-top: 130px;" id="contact">
+                            <h1 style="font-weight: 1000;">CONTACT</h1>
+                            <form>
+                                <div class="row">
+                                    
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+            </div>    
+    </body>
+</html>
